@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="selections">
+      <div id="street-chips" class="expanded" ></div>
+    </div>
+    <div id="cam-container">
+    </div>
+
+    <footer>
+      <h3>Analysis</h3>
+      <h6>Adam Murray - Feb 7, 2023</h6>
+      <p>If I were to redo this I would probably use an object to store up to 2 streets and use that
+        for selections instead of searching thru the dom. <br/>
+        I would also use a better algorithm for the street detection which would combine varients of streets
+        which would signifigantly reduce the number of streets to choose from. <br/>
+        Also instead of chips for the selection I think a combined dropdown/search would be better. <br/>
+        Lastly I would use better styling for more consistant sizes of the intersection images that fit 
+        the screen perfectly when only one is selected.
+        
+      </p>
+    </footer>
+    <script src="/main.js"></script>
+  </body>
+</html>
